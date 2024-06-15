@@ -40,20 +40,23 @@ docker build -t app . && echo "Несуществующий хост: "  &&  doc
 Ожидаемый вывод
 ```text
 Несуществующий хост: 
-Host name takogo_hosta_net cannot be resolved
+Не удалось разрешить имя узла: takogo_hosta_net
 Wiki CS: 
-Host wiki.cs.hse.ru is unreachable
+Узел wiki.cs.hse.ru недоступен
 GitHub: 
-Ping host# github.com with payload_size# 1000, returncode=0
-Ping host# github.com with payload_size# 1500, returncode=1
-Ping host# github.com with payload_size# 1250, returncode=0
-Ping host# github.com with payload_size# 1375, returncode=0
-Ping host# github.com with payload_size# 1437, returncode=0
-Ping host# github.com with payload_size# 1468, returncode=0
-Ping host# github.com with payload_size# 1484, returncode=1
-Ping host# github.com with payload_size# 1476, returncode=1
-Ping host# github.com with payload_size# 1472, returncode=0
-Ping host# github.com with payload_size# 1474, returncode=1
-Ping host# github.com with payload_size# 1473, returncode=1
-MTU to host# github.com = 1472 bytes, packet size with headers = 1500 bytes
+Пинг к узлу github.com с размером полезной нагрузки 2500, код возврата=1
+Пинг к узлу github.com с размером полезной нагрузки 1250, код возврата=0
+Пинг к узлу github.com с размером полезной нагрузки 1875, код возврата=1
+Пинг к узлу github.com с размером полезной нагрузки 1562, код возврата=0
+Пинг к узлу github.com с размером полезной нагрузки 1718, код возврата=0
+Пинг к узлу github.com с размером полезной нагрузки 1796, код возврата=0
+Пинг к узлу github.com с размером полезной нагрузки 1835, код возврата=0
+Пинг к узлу github.com с размером полезной нагрузки 1855, код возврата=0
+Пинг к узлу github.com с размером полезной нагрузки 1865, код возврата=0
+Пинг к узлу github.com с размером полезной нагрузки 1870, код возврата=0
+Пинг к узлу github.com с размером полезной нагрузки 1872, код возврата=0
+Пинг к узлу github.com с размером полезной нагрузки 1873, код возврата=0
+Пинг к узлу github.com с размером полезной нагрузки 1874, код возврата=1
+MTU к узлу github.com = 1873 байт, размер пакета с заголовком = 1901 байт
+
 ```
